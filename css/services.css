@@ -149,17 +149,12 @@ h5 {
   margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
 .container {
-  /* display: inline-block;
-	width: 100%;
-	margin: auto;
-	align-items: center; */
   width: 880px;
-  margin: auto;
+  margin: 0 auto;
 }
 
+/* header */
 header {
   margin: 40px 0 20px;
   padding: 20px 0;
@@ -174,7 +169,7 @@ header .fixed-nav-bar {
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 100px;
+  height: 80px;
   background: #0a67ce;
   background: -moz-linear-gradient(
     -45deg,
@@ -239,178 +234,63 @@ header .nav-items {
   align-items: center;
 }
 
-.top {
-  /* display: inline-block;
-	width: 100%;
-	margin-top: 100px;
-	margin-bottom: 65px; */
+.description {
+  padding: 35px 0;
+}
+.description h2 {
+  font-size: 25px;
+}
+
+.field-services {
+  padding: 40px 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.top .market-action {
-  /* display: inline-block;
-	flex-wrap: wrap;
-	margin-top: 100px;
-	margin-left: 500px;
-	height: 315px;
-	width: 25%;
-	align-items: center;
-	line-height: 82px;  */
-  vertical-align: top;
-  font-size: 77px;
-  margin-top: 120px;
-  text-align: center;
-  padding: 0px 75px;
+.field-services .item {
+  background: #f4f3f4;
+  border: 1px solid black;
+  width: calc(50% - 1.25em);
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
 }
-
-/* .market-action h1 {
-	font-size: 75px;
-	text-align: center;
-} */
-
-.market-action .slogan {
-  vertical-align: top;
-  font-size: 77px;
-  margin-top: 120px;
-  text-align: center;
-  padding: 0px 75px;
-}
-.market-action button {
-  /* 
-	font-size: 20px;
-	margin: 0 25px;
-	margin-left: 115px;
-	text-align: center;
-	color: black;
-	background: white;
-	padding: 10px 54px; */
+.field-services .item button {
   background: white;
   vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
-  font-size: 17px;
+  margin: 10px;
+  height: 36px;
+  padding: 10px 36px 10px 36px;
+  font-size: 12px;
   border: 1px solid black;
   cursor: pointer;
+  border-radius: 5px;
 }
-.market-action button:hover {
-  background: dodgerblue;
+.field-services .item button:hover {
+  background: black;
   color: white;
 }
-.top img {
-  /* display: inline-block;
-	margin-top: 30px;
-	margin-left: 130px; */
+
+.bottom-services-info {
   display: flex;
-  justify-content: flex-end;
+  padding: 50px 10px 50px 0;
+  justify-content: space-around;
 }
 
-.main-content {
-  /* border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
-	width: 55%;
-	align-items: center;
-	display: inline-block;
-	margin-left: 500px; */
-  border-top: 1px solid black;
-  margin-top: 76px;
-  padding-top: 39px;
-}
-
-.top-content {
-  /* width: 100%;
-	align-items: center;
-	display: inline-block; */
+.service-info-text {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 10px 10px 0;
+  padding-top: 0;
 }
-
-.feature-content {
-  text-align: left;
-  padding: 10px;
-  display: flex;
-}
-
-.features {
-  width: 46%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
-  margin-right: 2%;
-}
-
-.about {
-  width: 46%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
-  margin-left: 2%;
-}
-
-/* .middle-content {
-	width: 100%;
-	align-items: center;
-	margin-bottom: 50px;
-} */
-.middle-content img {
-  /* width: 100%;
-	height: auto; */
-  margin-top: 45px;
-}
-
-.bottom-content {
-  /* width: 100%;
-	align-items: center; */
-  /* display: inline-block; */
-  margin-top: 37px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.services {
-  width: 30%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
-}
-
-.product {
-  width: 30%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
-  margin: 0 3%;
-}
-
-.vision {
-  width: 30%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
-}
-
-.contact {
-  /* border-top: 1px solid black;
-	margin-top: 30px;
-	padding-top: 40px;
-	width: 55%;
-	display: inline-block;
-	margin-left: 500px; */
-  margin-top: 60px;
-  border-top: 1px solid black;
-  padding: 40px 10px 0;
-}
-.contact-info {
-  align-items: left;
-}
-
-.contact-info a:link {
-  text-decoration: none;
-}
-
-.span:hover {
-  color: red;
+.service-info-text li {
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 5px;
 }
 footer {
   margin: 100px 0 200px 0;
