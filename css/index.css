@@ -1,3 +1,360 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+header .fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100px;
+  background: #0a67ce;
+  background: -moz-linear-gradient(
+    -45deg,
+    #0a67ce 0%,
+    #2795a4 42%,
+    #8778c5 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #0a67ce 0%,
+    #2795a4 42%,
+    #8778c5 100%
+  );
+  background: linear-gradient(135deg, #0a67ce 0%, #2795a4 42%, #8778c5 100%);
+}
+
+header .fixed-nav-bar ul {
+  margin-left: 500px;
+}
+header .fixed-nav-bar ul li {
+  display: inline-block;
+  align-content: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.fixed-nav-bar a {
+  margin: 0 20px;
+}
+
+.fixed-nav-bar a:link {
+  color: #171717;
+  text-decoration: none;
+}
+.fixed-nav-bar a:visited {
+  color: #e52b50;
+  text-decoration: none;
+}
+
+.fixed-nav-bar a:hover {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 20px;
+  color: blue;
+  text-decoration: none;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
+  box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
+}
+.fixed-nav-bar img:hover {
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    inset 0px 0px 0px 0px rgba(25, 98, 221, 0.77);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    inset 0px 0px 0px 0px rgba(25, 98, 221, 0.77);
+}
+
+header .logo {
+  margin-left: 5px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.top {
+  display: inline-block;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 65px;
+}
+
+.top .market-action {
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 500px;
+  height: 315px;
+  width: 25%;
+  align-items: center;
+  line-height: 82px;
+}
+
+.market-action h1 {
+  font-size: 75px;
+  text-align: center;
+}
+.market-action button {
+  border: 1px solid black;
+  font-size: 20px;
+  margin: 0 25px;
+  margin-left: 115px;
+  text-align: center;
+  color: black;
+  background: white;
+  padding: 10px 54px;
+}
+
+.top img {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 130px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+  width: 55%;
+  align-items: center;
+  display: inline-block;
+  margin-left: 500px;
+}
+
+.top-content {
+  width: 100%;
+  align-items: center;
+  display: inline-block;
+}
+.feature-content {
+  text-align: left;
+  padding: 10px;
+}
+.features {
+  width: 46%;
+  height: 150px;
+  display: inline-block;
+  margin-right: 2%;
+}
+.about {
+  width: 46%;
+  height: 150px;
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.middle-content {
+  width: 100%;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.middle-content img {
+  width: 100%;
+  height: auto;
+}
+
+.bottom-content {
+  width: 100%;
+  align-items: center;
+  display: inline-block;
+}
+.services {
+  width: 30%;
+  height: 150px;
+  display: inline-block;
+}
+.product {
+  width: 30%;
+  height: 150px;
+  display: inline-block;
+  margin: 0 3%;
+}
+.vision {
+  width: 30%;
+  height: 150px;
+  display: inline-block;
+}
+
+.contact {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  padding-top: 40px;
+  width: 55%;
+  display: inline-block;
+  margin-left: 500px;
+}
+.contact-info {
+  align-items: left;
+}
+
+.contact-info a:link {
+  text-decoration: none;
+}
+
+.span:hover {
+  color: red;
+}
+footer {
+  margin: 100px 0 200px 0;
+  text-align: center;
+}
+.copyright:hover {
+  color: purple;
+}
