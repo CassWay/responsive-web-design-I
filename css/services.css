@@ -258,13 +258,15 @@ header .nav-items {
   justify-content: space-between;
 }
 .field-services .item {
-  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   background: #f4f3f4;
   border: 1px solid black;
   width: calc(50% - 1.25em);
-  height: 12.5rem;
+  height: 260px;
   padding: 0.625rem;
-  margin: 0.625rem;
+  margin-bottom: 10px;
 }
 .field-services .item button {
   background: white;
@@ -308,7 +310,8 @@ header .nav-items {
 footer {
   margin: 6.25rem 0 12.5rem 0;
   text-align: center;
+  font-size: 14px;
 }
 .copyright:hover {
-  color: purple;
+  color: #044414;
 }
