@@ -161,8 +161,8 @@ h5 {
 }
 
 header {
-  margin: 40px 0 20px;
-  padding: 20px 0;
+  margin: 2.5rem 0 1.25rem;
+  padding: 1.25rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -192,18 +192,18 @@ header .fixed-nav-bar {
 }
 
 header .fixed-nav-bar ul {
-  margin-left: 500px;
+  margin-left: 31.25rem;
 }
 header .fixed-nav-bar ul li {
   display: inline-block;
   align-content: center;
-  padding: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  padding: 0.625rem;
+  margin-left: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
 .fixed-nav-bar a {
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 .fixed-nav-bar a:link {
@@ -216,13 +216,13 @@ header .fixed-nav-bar ul li {
 }
 
 .fixed-nav-bar a:hover {
-  margin: 0 10px;
+  margin: 0 0.625rem;
   border: 1px solid lightgray;
-  padding: 20px;
-  border-radius: 20px;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
   color: blue;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   -webkit-box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
   box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
 }
@@ -234,7 +234,7 @@ header .fixed-nav-bar ul li {
 }
 
 header .nav-items {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   align-items: center;
 }
@@ -259,9 +259,9 @@ header .nav-items {
 	line-height: 82px;  */
   vertical-align: top;
   font-size: 77px;
-  margin-top: 120px;
+  margin-top: 7.5rem;
   text-align: center;
-  padding: 0px 75px;
+  padding: 0rem 4.6875rem;
 }
 
 /* .market-action h1 {
@@ -272,9 +272,9 @@ header .nav-items {
 .market-action .slogan {
   vertical-align: top;
   font-size: 77px;
-  margin-top: 120px;
+  margin-top: 7.5rem;
   text-align: center;
-  padding: 0px 75px;
+  padding: 0rem 4.6875rem;
 }
 .market-action button {
   /* 
@@ -287,8 +287,8 @@ header .nav-items {
 	padding: 10px 54px; */
   background: white;
   vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
+  margin-top: 0.375rem;
+  padding: 0.5rem 2.75rem;
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
@@ -314,8 +314,8 @@ header .nav-items {
 	display: inline-block;
 	margin-left: 500px; */
   border-top: 1px solid black;
-  margin-top: 76px;
-  padding-top: 39px;
+  margin-top: 4.75rem;
+  padding-top: 2.4375rem;
 }
 
 .top-content {
@@ -328,23 +328,19 @@ header .nav-items {
 
 .feature-content {
   text-align: left;
-  padding: 10px;
+  padding: 0.625rem;
   display: flex;
+  flex-direction: row;
+  height: 8.875rem;
 }
 
 .features {
   width: 46%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
   margin-right: 2%;
 }
 
 .about {
   width: 46%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
   margin-left: 2%;
 }
 
@@ -353,53 +349,34 @@ header .nav-items {
 	align-items: center;
 	margin-bottom: 50px;
 } */
+
 .middle-content img {
-  /* width: 100%;
-	height: auto; */
-  margin-top: 45px;
+  margin-top: 10px;
 }
 
 .bottom-content {
-  /* width: 100%;
-	align-items: center; */
-  /* display: inline-block; */
-  margin-top: 37px;
+  margin-top: 35px;
   display: flex;
   justify-content: space-between;
 }
 
 .services {
   width: 30%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
 }
 
 .product {
   width: 30%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
   margin: 0 3%;
 }
 
 .vision {
   width: 30%;
-  height: 150px;
-  /* display: inline-block; */
-  flex-direction: row;
 }
 
 .contact {
-  /* border-top: 1px solid black;
-	margin-top: 30px;
-	padding-top: 40px;
-	width: 55%;
-	display: inline-block;
-	margin-left: 500px; */
-  margin-top: 60px;
+  margin-top: 50px;
   border-top: 1px solid black;
-  padding: 40px 10px 0;
+  padding: 30px 0.625rem 0;
 }
 .contact-info {
   align-items: left;
@@ -413,7 +390,7 @@ header .nav-items {
   color: red;
 }
 footer {
-  margin: 100px 0 200px 0;
+  margin: 6.25rem 0 12.5rem 0;
   text-align: center;
 }
 .copyright:hover {
