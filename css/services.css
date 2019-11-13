@@ -156,8 +156,8 @@ h5 {
 
 /* header */
 header {
-  margin: 40px 0 20px;
-  padding: 20px 0;
+  margin: 2.5rem 0 1.25rem;
+  padding: 1.25rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -187,18 +187,18 @@ header .fixed-nav-bar {
 }
 
 header .fixed-nav-bar ul {
-  margin-left: 500px;
+  margin-left: 31.25rem;
 }
 header .fixed-nav-bar ul li {
   display: inline-block;
   align-content: center;
-  padding: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  padding: 0.625rem;
+  margin-left: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
 .fixed-nav-bar a {
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 .fixed-nav-bar a:link {
@@ -211,13 +211,13 @@ header .fixed-nav-bar ul li {
 }
 
 .fixed-nav-bar a:hover {
-  margin: 0 10px;
+  margin: 0 0.625rem;
   border: 1px solid lightgray;
-  padding: 20px;
+  padding: 1.25rem;
   border-radius: 20px;
   color: blue;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   -webkit-box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
   box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
 }
@@ -229,20 +229,20 @@ header .fixed-nav-bar ul li {
 }
 
 header .nav-items {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   align-items: center;
 }
 
 .description {
-  padding: 35px 0;
+  padding: 2.1875rem 0;
 }
 .description h2 {
   font-size: 25px;
 }
 
 .field-services {
-  padding: 40px 0;
+  padding: 2.5rem 0;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   display: flex;
@@ -253,15 +253,15 @@ header .nav-items {
   background: #f4f3f4;
   border: 1px solid black;
   width: calc(50% - 1.25em);
-  height: 200px;
-  padding: 10px;
-  margin: 10px;
+  height: 12.5rem;
+  padding: 0.625rem;
+  margin: 0.625rem;
 }
 .field-services .item button {
   background: white;
   vertical-align: top;
-  margin: 10px;
-  height: 36px;
+  margin: 0.625rem;
+  height: 2.25rem;
   padding: 10px 36px 10px 36px;
   font-size: 12px;
   border: 1px solid black;
@@ -271,6 +271,10 @@ header .nav-items {
 .field-services .item button:hover {
   background: black;
   color: white;
+}
+
+.span:hover {
+  color: red;
 }
 
 .bottom-services-info {
@@ -290,10 +294,10 @@ header .nav-items {
 .service-info-text li {
   list-style-type: square;
   list-style-position: inside;
-  padding: 5px;
+  padding: 0.3125rem;
 }
 footer {
-  margin: 100px 0 200px 0;
+  margin: 6.25rem 0 12.5rem 0;
   text-align: center;
 }
 .copyright:hover {

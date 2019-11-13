@@ -152,10 +152,6 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-  /* display: inline-block;
-	width: 100%;
-	margin: auto;
-	align-items: center; */
   width: 880px;
   margin: auto;
 }
@@ -164,17 +160,21 @@ header {
   margin: 2.5rem 0 1.25rem;
   padding: 1.25rem 0;
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
 header .fixed-nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 100px;
+  height: 65px;
   background: #0a67ce;
   background: -moz-linear-gradient(
     -45deg,
@@ -192,30 +192,29 @@ header .fixed-nav-bar {
 }
 
 header .fixed-nav-bar ul {
-  margin-left: 31.25rem;
+  margin-left: 15%;
 }
 header .fixed-nav-bar ul li {
-  display: inline-block;
   align-content: center;
   padding: 0.625rem;
   margin-left: 0.625rem;
   margin-bottom: 0.625rem;
 }
 
-.fixed-nav-bar a {
+header .fixed-nav-bar a {
   margin: 0 1.25rem;
 }
 
-.fixed-nav-bar a:link {
+header .fixed-nav-bar a:link {
   color: #171717;
   text-decoration: none;
 }
-.fixed-nav-bar a:visited {
+header .fixed-nav-bar a:visited {
   color: #e52b50;
   text-decoration: none;
 }
 
-.fixed-nav-bar a:hover {
+header .fixed-nav-bar a:hover {
   margin: 0 0.625rem;
   border: 1px solid lightgray;
   padding: 1.25rem;
@@ -226,7 +225,14 @@ header .fixed-nav-bar ul li {
   -webkit-box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
   box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
 }
-.fixed-nav-bar img:hover {
+
+header .fixed-nav-bar img {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+header .fixed-nav-bar img:hover {
   -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
     inset 0px 0px 0px 0px rgba(25, 98, 221, 0.77);
   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
@@ -236,27 +242,15 @@ header .fixed-nav-bar ul li {
 header .nav-items {
   margin-top: 1.25rem;
   display: flex;
-  align-items: center;
 }
 
+
 .top {
-  /* display: inline-block;
-	width: 100%;
-	margin-top: 100px;
-	margin-bottom: 65px; */
   display: flex;
   justify-content: space-between;
 }
 
 .top .market-action {
-  /* display: inline-block;
-	flex-wrap: wrap;
-	margin-top: 100px;
-	margin-left: 500px;
-	height: 315px;
-	width: 25%;
-	align-items: center;
-	line-height: 82px;  */
   vertical-align: top;
   font-size: 77px;
   margin-top: 7.5rem;
@@ -272,19 +266,11 @@ header .nav-items {
 .market-action .slogan {
   vertical-align: top;
   font-size: 77px;
-  margin-top: 7.5rem;
+  margin-top: 1.5rem;
   text-align: center;
   padding: 0rem 4.6875rem;
 }
 .market-action button {
-  /* 
-	font-size: 20px;
-	margin: 0 25px;
-	margin-left: 115px;
-	text-align: center;
-	color: black;
-	background: white;
-	padding: 10px 54px; */
   background: white;
   vertical-align: top;
   margin-top: 0.375rem;
@@ -298,30 +284,17 @@ header .nav-items {
   color: white;
 }
 .top img {
-  /* display: inline-block;
-	margin-top: 30px;
-	margin-left: 130px; */
   display: flex;
   justify-content: flex-end;
 }
 
 .main-content {
-  /* border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
-	width: 55%;
-	align-items: center;
-	display: inline-block;
-	margin-left: 500px; */
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   margin-top: 4.75rem;
   padding-top: 2.4375rem;
 }
 
 .top-content {
-  /* width: 100%;
-	align-items: center;
-	display: inline-block; */
   display: flex;
   justify-content: space-between;
 }
