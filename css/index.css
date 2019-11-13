@@ -303,7 +303,7 @@ header .nav-items {
   text-align: left;
   padding: 0.625rem;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   height: 8.875rem;
 }
 
@@ -317,11 +317,6 @@ header .nav-items {
   margin-left: 2%;
 }
 
-/* .middle-content {
-	width: 100%;
-	align-items: center;
-	margin-bottom: 50px;
-} */
 
 .middle-content img {
   margin-top: 10px;
@@ -348,8 +343,8 @@ header .nav-items {
 
 .contact {
   margin-top: 50px;
-  border-top: 1px solid black;
-  padding: 30px 0.625rem 0;
+  border-top: 2px solid black;
+  padding: 1.875rem 0.625rem 0;
 }
 .contact-info {
   align-items: left;
