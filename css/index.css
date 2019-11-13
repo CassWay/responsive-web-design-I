@@ -221,7 +221,7 @@ header .fixed-nav-bar a:hover {
   border-radius: 1.25rem;
   color: blue;
   text-decoration: none;
-  margin-bottom: 1.25rem;
+  margin-bottom: 20px;
   -webkit-box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
   box-shadow: 15px 13px 10px -3px rgba(46, 45, 3, 0.75);
 }
@@ -235,7 +235,7 @@ header .fixed-nav-bar img {
 header .fixed-nav-bar img:hover {
   -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
     inset 0px 0px 0px 0px rgba(25, 98, 221, 0.77);
-  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
     inset 0px 0px 0px 0px rgba(25, 98, 221, 0.77);
 }
 
@@ -360,7 +360,8 @@ header .nav-items {
 footer {
   margin: 6.25rem 0 12.5rem 0;
   text-align: center;
+  font-size: 14px;
 }
 .copyright:hover {
-  color: purple;
+  color: #044414;
 }
