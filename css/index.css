@@ -257,7 +257,7 @@ header .logo {
   padding: 0.625rem;
   display: flex;
   flex-flow: row nowrap;
-  height: 8.875rem;
+  height: 142px;
 }
 
 .features {
@@ -303,7 +303,7 @@ header .logo {
 } */
 
 .contact {
-  margin-top: 50px;
+  margin-top: 75px;
   border-top: 2px solid black;
   padding: 39px 10px 0;
 }
@@ -384,4 +384,95 @@ footer {
     width: 80%;
     margin: 0 auto;
   }
+
+  header nav {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  header nav a {
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+  }
+  header nav a:first-child{
+    border-top: 1px solid black;
+  }
+
+  .top {
+    justify-content: center;
+  }
+
+  .market-action {
+    justify-content: center;
+  }
+
+  .market-action .slogan {
+    font-size: 72px;
+  }
+  .market-action button{
+    font-size: 20px;
+    padding: 6px 32px;
+  }
+  .market-action img {
+    display: none;
+  }
+
+  .main-content .top-content {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main-content .middle-img {
+    width: 100%;
+  }
+
+  .main-content .bottom-content {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main-content .feature-content {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 60%;
+    font-size: 14px;
+    margin-left: 0px;
+  }
+  .main-content .feature-content .features {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .main-content .feature-content .about{
+    width: 100%;
+  }
+  .main-content .feature-content .services {
+    width: 100%;
+    margin: 5% 0;
+  }
+  .main-content .feature-content .product{
+    width: 100%;
+    margin: 5% 0;
+  }
+  .main-content .feature-content .vision {
+    width: 100%;
+    margin: 5% 0;
+  }
+
+  .contact {
+    margin: 0;
+  }
+
+  .contact .contact-info {
+    font-size: 14px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
 }
+
+
