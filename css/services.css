@@ -215,8 +215,8 @@ header .fixed-nav-bar a:visited {
 
 header .fixed-nav-bar a:hover {
   margin: 0 0.625rem;
-  border: 1px solid lightgray;
-  padding: 1.25rem;
+  /* border: 1px solid lightgray; */
+  /* padding: 1.25rem; */
   border-radius: 1.25rem;
   color: blue;
   text-decoration: none;
@@ -314,4 +314,20 @@ footer {
 }
 .copyright:hover {
   color: #044414;
+}
+
+/*  Ultra*/
+@media screen and (max-width: 2000) {
+}
+/*  Wide Screen*/
+@media screen and (max-width: 1407) {
+}
+/*  Desktop*/
+@media screen and (max-width: 1215) {
+}
+/* Tablet */
+@media screen and (max-width: 1023) {
+}
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
 }
